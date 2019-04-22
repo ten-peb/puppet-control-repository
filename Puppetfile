@@ -32,3 +32,5 @@ mod 'stahnma/epel'
 # Home grown modules
 mod 'role',
     :git => 'git@github.com:ten-peb/puppet-module-role.git'
+mod 'profile',
+    :git => 'git@github.com:ten-peb/puppet-module-profile.git'
