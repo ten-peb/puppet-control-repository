@@ -30,5 +30,5 @@ mod 'puppetlabs/vcsrepo'
 mod 'stahnma/epel'
 #
 # Home grown modules
-mod 'ten-role',
+mod 'ten/role',
     :git => 'git@github.com:ten-peb/puppet-module-role.git'
