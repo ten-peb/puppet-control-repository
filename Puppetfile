@@ -28,3 +28,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/translate'
 mod 'puppetlabs/vcsrepo'
 mod 'stahnma/epel'
+#
+# Home grown modules
+mod 'ten-role',
+    git => 'git@github.com:ten-peb/puppet-module-role.git'
