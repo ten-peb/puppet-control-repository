@@ -1,0 +1,5 @@
+---
+tenna::users::peter::parms::home: /data/home/peter
+
+classes:
+ - role::jenkins::master
