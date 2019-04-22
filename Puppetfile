@@ -1,10 +1,10 @@
 forge "http://forge.puppetlabs.com"
 
-mod 'gentoo-portage'
+mod 'gentoo/portage'
 mod 'puppet/archive'
-mod 'puppet-hiera'
+mod 'puppet/hiera'
 mod 'puppet/extlib'
-mod 'puppet-make'
+mod 'puppet/make'
 mod 'puppet/puppetboard'
 mod 'puppet/python'
 mod 'puppet/r10k'
