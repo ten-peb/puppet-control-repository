@@ -6,5 +6,13 @@ defaults:  # Used for any hierarchy level that omits these keys.
   data_hash: yaml_data  # Use the built-in YAML backend.
 
 hierarchy:
-  - name: 'common'
-    path: 'common.yaml'
+  - name: 'AWS Environment'
+    paths:
+      - 'aws_environment/%{::aws_environment}.yaml'
+      - 'aws_environment/%{::aws_environment}.eyaml'
+  - name: 'Host Function'
+    path: 'host_function/%{::host_function}'
+  - name: 'Common'
+    paths:
+      - 'common.yaml'
+      - 'common.eyaml'
