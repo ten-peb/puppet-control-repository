@@ -11,7 +11,7 @@ hierarchy:
       - 'aws_environment/%{::aws_environment}.yaml'
       - 'aws_environment/%{::aws_environment}.eyaml'
   - name: 'Host Function'
-    path: 'host_function/%{::host_function}'
+    path: 'host_function/%{::host_function}.yaml'
   - name: 'Common'
     paths:
       - 'common.yaml'
