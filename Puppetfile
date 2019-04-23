@@ -38,3 +38,5 @@ mod 'tenna',
     :git => 'git@github.com:ten-peb/puppet-module-tenna.git'
 mod 'docker',
     :git => 'git@github.com:ten-peb/puppet-module-docker.git'
+mod 'jenkins',
+    :git => 'git@github.com:ten-peb/puppet-module-jenkins.git'
