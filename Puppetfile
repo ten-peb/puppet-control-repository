@@ -36,3 +36,5 @@ mod 'profile',
     :git => 'git@github.com:ten-peb/puppet-module-profile.git'
 mod 'tenna',
     :git => 'git@github.com:ten-peb/puppet-module-tenna.git'
+mod 'docker',
+    :git => 'git@github.com:ten-peb/puppet-module-docker.git'
