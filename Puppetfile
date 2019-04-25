@@ -28,7 +28,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/translate'
 mod 'puppetlabs/vcsrepo'
 mod 'stahnma/epel'
-mod 'saz-timezone', '5.1.1'
+mod 'saz/timezone'
 #
 # Home grown modules
 mod 'role',
