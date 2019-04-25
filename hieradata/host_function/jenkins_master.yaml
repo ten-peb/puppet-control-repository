@@ -1,5 +1,6 @@
 ---
 tenna::users::peter::parms::home: /data/home/peter
+tenna::users::jenkins::parms::home: /data/ci/jenkins
 
 classes:
  - role::jenkins::master
