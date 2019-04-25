@@ -40,3 +40,5 @@ mod 'docker',
     :git => 'git@github.com:ten-peb/puppet-module-docker.git'
 mod 'jenkins',
     :git => 'git@github.com:ten-peb/puppet-module-jenkins.git'
+mod 'selenium',
+    :git => 'git@github.com:ten-peb/puppet-module-selenium.git'
