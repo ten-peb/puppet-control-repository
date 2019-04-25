@@ -1,5 +1,6 @@
 forge "http://forge.puppetlabs.com"
 
+
 mod 'gentoo/portage'
 mod 'puppet/archive'
 mod 'puppet/hiera'
@@ -29,6 +30,7 @@ mod 'puppetlabs/translate'
 mod 'puppetlabs/vcsrepo'
 mod 'stahnma/epel'
 mod 'saz/timezone'
+mod 'stm/debconf'
 #
 # Home grown modules
 mod 'role',
