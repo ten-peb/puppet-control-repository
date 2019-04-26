@@ -1,5 +1,5 @@
 ---
-tenna::add_users::userlist:
+tenna::addusers::userlist:
   - ashah
   - kellyh
   - nehaprabhu
