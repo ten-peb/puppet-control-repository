@@ -1,2 +1,8 @@
+---
+tenna::add_users::userlist:
+  - ashah
+  - kellyh
+  - nehaprabhu
+  
 classes:
   - role::qa::testbed
