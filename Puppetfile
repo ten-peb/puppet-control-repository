@@ -1,5 +1,6 @@
 forge "http://forge.puppetlabs.com"
 
+
 mod 'gentoo/portage'
 mod 'puppet/archive'
 mod 'puppet/hiera'
@@ -28,6 +29,8 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/translate'
 mod 'puppetlabs/vcsrepo'
 mod 'stahnma/epel'
+mod 'saz/timezone'
+mod 'stm/debconf'
 #
 # Home grown modules
 mod 'role',
@@ -40,3 +43,5 @@ mod 'docker',
     :git => 'git@github.com:ten-peb/puppet-module-docker.git'
 mod 'jenkins',
     :git => 'git@github.com:ten-peb/puppet-module-jenkins.git'
+mod 'selenium',
+    :git => 'git@github.com:ten-peb/puppet-module-selenium.git'
