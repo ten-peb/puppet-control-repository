@@ -1,6 +1,6 @@
 forge "http://forge.puppetlabs.com"
 
-mod 'bryana-ec2tagfacts'
+mod 'bryana/ec2tagfacts'
 mod 'gentoo/portage'
 mod 'puppet/archive'
 mod 'puppet/hiera'
