@@ -16,7 +16,10 @@ tenna::parms::usertable:
    public_rsakey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDQxzOSsKVkdEIvZmk8Ky+zLhSbizqoU5H9QvXvxeQee9UHM9UKS7iQ6oNa0NlrFuWG5U6Rl//9sX11inEdAJ9LLe2sEErgknm6yUNOip103xNbKuLzNqqxHLDiYImQyp7xQX0vf5D49eb1zpft58SI6FeOXSLjj4NZsHaEFl/QCtzD8sgc/Y/NQr6BDIc3tCGAl/UPB2ViM3GHGE7OPJ8jOfMfp5JeWgV3chJ6wG3WWJ5tNu9/OrGvIE/jW76rz0Y7DhuP7axSspdkDUnxkELRVxPV8Mnj04pq5m7VctEKRwuGebaDbde4YlbVPdl2xX70aoY/vWGKk3L6LOAKqbHJdJ6uqsBUDxk8/cK2hYK/Luf8iQ8wv1YNgt8iuBnvtwcBmlR3HxjSinkX9ZEUtOplYtwwiIgh8st+Rvm0P6ELUo+fPIyefBsCvHsIpxgU/4COurCOjq4mR17eAIMZiRcXcPKSwowoJgLVIQqPqnbDe/X+dHU6jMF+q8jwBCokEsMNO4IW4qZJuTRWCIiZTktVJB2xD9n2flS0Tf841Ts/qBTbRFIzI5JxsPCDSOLSfgbV3/OzBbOxrN2mjf7Tt7BiK1BjvnNH+BUXYhkIXX0VSBs5W8wNGubwXOaIO+OFNJ/Y1o8IGWqyQkDoRZ3p399w4rUJIXf+Zga1DRQb3C9gxw== nehaprabhu@admins-MacBook-Pro.local
    groups:
      - docker
-
+apt::update:
+  frequency: daily
+  loglevel: debug
+  
 classes:
   - profile::base
 
